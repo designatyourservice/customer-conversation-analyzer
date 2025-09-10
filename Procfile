@@ -1,1 +1,1 @@
-web: gunicorn conversation_analyzer_app:app
+web: gunicorn wsgi:app

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversation Analyzer - Talqui</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <div class="header-left">
+                    <i class="fas fa-comments"></i>
+                    <h1>Conversation Analyzer</h1>
+                </div>
+                <div class="header-stats" id="headerStats">
+                    <!-- Estatísticas carregadas via JS -->
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Left Sidebar - Filtros -->
+            <aside class="left-sidebar">
+                <div class="sidebar-header">
+                    <i class="fas fa-filter"></i>
+                    <h3>Filtros</h3>
+                    <button id="clearFilters" class="clear-btn">
+                        <i class="fas fa-times"></i> Limpar
+                    </button>
+                </div>
+
+                <div class="filter-section">
+                    <h4><i class="fas fa-tag"></i> Categoria</h4>
+                    <div class="filter-list" id="categoryFilter">
+                        <!-- Carregado via JS -->
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h4><i class="fas fa-tags"></i> Subcategoria</h4>
+                    <div class="filter-list" id="subcategoryFilter">
+                        <!-- Carregado via JS -->
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h4><i class="fas fa-user"></i> Agente</h4>
+                    <div class="filter-list" id="agentFilter">
+                        <!-- Carregado via JS -->
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h4><i class="fas fa-percentage"></i> Confiança</h4>
+                    <div class="filter-list" id="confidenceFilter">
+                        <!-- Carregado via JS -->
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h4><i class="fas fa-exchange-alt"></i> Transbordo</h4>
+                    <div class="filter-list" id="handoffFilter">
+                        <!-- Carregado via JS -->
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h4><i class="fas fa-check-circle"></i> RLHF</h4>
+                    <div class="filter-list" id="rlhfFilter">
+                        <!-- Carregado via JS -->
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Column 2 - Lista de Conversas -->
+            <aside class="conversations-column">
+                <div class="panel-header">
+                    <h3><i class="fas fa-list"></i> Conversas <span id="conversationCount">(0)</span></h3>
+                </div>
+                <div class="conversations-list" id="conversationsList">
+                    <!-- Carregado via JS -->
+                </div>
+            </aside>
+
+            <!-- Column 3 - Visualização da Conversa -->
+            <main class="conversation-viewer-column">
+                <div class="viewer-header">
+                    <h3><i class="fas fa-comments"></i> Conversa</h3>
+                </div>
+                <div class="conversation-viewer" id="conversationViewer">
+                    <div class="viewer-placeholder">
+                        <i class="fas fa-comments"></i>
+                        <h3>Selecione uma conversa</h3>
+                        <p>Clique em uma conversa da lista para visualizar as mensagens</p>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Right Sidebar - Informações da Conversa -->
+            <aside class="right-sidebar">
+                <div class="sidebar-header">
+                    <i class="fas fa-info-circle"></i>
+                    <h3>Informações</h3>
+                </div>
+                
+                <div class="info-panel" id="conversationInfo">
+                    <div class="info-placeholder">
+                        <i class="fas fa-arrow-left"></i>
+                        <p>Selecione uma conversa para ver as informações detalhadas</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-content">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Carregando...</p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

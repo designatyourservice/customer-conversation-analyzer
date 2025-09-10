@@ -1,0 +1,51 @@
+{
+  "total_sessions": 3674,
+  "sessions_with_handoff": 1360,
+  "sessions_without_handoff": 2314,
+  "handoff_rate": 0.37016875340228633,
+  "agent_effectiveness": {
+    "Isabella": {
+      "total_sessions": 2456,
+      "successful_closures": 1146,
+      "handoffs": 1310,
+      "closure_rate": 0.46661237785016285,
+      "avg_effectiveness_score": 0.8242671009772158
+    },
+    "Alison": {
+      "total_sessions": 391,
+      "successful_closures": 362,
+      "handoffs": 29,
+      "closure_rate": 0.9258312020460358,
+      "avg_effectiveness_score": 0.9777493606138102
+    },
+    "Thomaz": {
+      "total_sessions": 55,
+      "successful_closures": 48,
+      "handoffs": 7,
+      "closure_rate": 0.8727272727272727,
+      "avg_effectiveness_score": 0.9563636363636364
+    },
+    "Achilles": {
+      "total_sessions": 186,
+      "successful_closures": 175,
+      "handoffs": 11,
+      "closure_rate": 0.9408602150537635,
+      "avg_effectiveness_score": 0.9806451612903226
+    },
+    "João": {
+      "total_sessions": 19,
+      "successful_closures": 18,
+      "handoffs": 1,
+      "closure_rate": 0.9473684210526315,
+      "avg_effectiveness_score": 0.9842105263157894
+    },
+    "Gustavo": {
+      "total_sessions": 17,
+      "successful_closures": 15,
+      "handoffs": 2,
+      "closure_rate": 0.8823529411764706,
+      "avg_effectiveness_score": 0.9647058823529411
+    }
+  },
+  "analysis_timestamp": "2025-09-06T13:09:43.562587"
+}

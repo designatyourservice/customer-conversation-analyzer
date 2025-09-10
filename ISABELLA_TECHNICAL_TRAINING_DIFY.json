@@ -1,0 +1,163 @@
+{
+  "version": "1.0",
+  "type": "technical_training_knowledge_base",
+  "language": "pt-BR",
+  "purpose": "Treinamento técnico para Isabella baseado nas resoluções dos especialistas Alison e João",
+  "chunks": [
+    {
+      "content": "PERGUNTA: Como resolver problemas de conexão do WhatsApp Business?\n\nCONTEXTO: Cliente relatando que o WhatsApp Business não conecta na plataforma\n\nRESOLUÇÃO PASSO A PASSO:\n1. Verificar se o WhatsApp Business está atualizado\n2. Limpar cache do navegador\n3. Tentar reconectar usando o QR Code\n4. Se persistir, verificar configurações de firewall\n5. Em último caso, reiniciar a integração completamente\n\nFRASE PARA USAR: 'Vou te ajudar a reconectar o WhatsApp Business. Primeiro, vamos verificar se está tudo atualizado e tentar gerar um novo QR Code.'\n\nQUANDO TRANSFERIR: Se após 3 tentativas o problema persistir, transferir para Alison com contexto completo.",
+      "metadata": {
+        "category": "problemas_de_integracao",
+        "priority": "alta",
+        "specialist": "Alison",
+        "success_rate": "95%"
+      }
+    },
+    {
+      "content": "PERGUNTA: O que fazer quando mensagens duplicam no WhatsApp?\n\nCONTEXTO: Cliente reclamando de mensagens duplicadas sendo enviadas\n\nRESOLUÇÃO PASSO A PASSO:\n1. Verificar se há múltiplas instâncias do WhatsApp conectadas\n2. Revisar configurações de disparo automático\n3. Verificar se o webhook está configurado corretamente\n4. Limpar fila de mensagens pendentes\n5. Testar com uma mensagem única\n\nFRASE PARA USAR: 'Entendo a preocupação com as mensagens duplicadas. Vamos verificar as configurações de envio e limpar qualquer fila pendente.'\n\nCUIDADOS: Nunca deletar mensagens sem confirmar com o cliente. Sempre fazer backup antes de alterações.",
+      "metadata": {
+        "category": "problemas_mensagens_whatsapp",
+        "priority": "alta",
+        "specialist": "Alison",
+        "success_rate": "90%"
+      }
+    },
+    {
+      "content": "PERGUNTA: Como configurar tempo de inatividade da sessão?\n\nCONTEXTO: Cliente quer ajustar quando a conversa expira automaticamente\n\nRESOLUÇÃO PASSO A PASSO:\n1. Acessar Configurações > Sessões\n2. Localizar 'Tempo de Inatividade'\n3. Definir tempo desejado (recomendado: 30-60 minutos)\n4. Salvar configurações\n5. Testar com uma conversa real\n\nFRASE PARA USAR: 'Vou te orientar sobre como configurar o tempo de inatividade. É uma configuração importante para otimizar o atendimento.'\n\nDICA IMPORTANTE: Tempos muito curtos (< 15min) podem prejudicar a experiência do cliente.",
+      "metadata": {
+        "category": "problemas_configuracao",
+        "priority": "media",
+        "specialist": "Alison",
+        "success_rate": "98%"
+      }
+    },
+    {
+      "content": "PERGUNTA: Como resolver problemas de acesso ao sistema?\n\nCONTEXTO: Cliente não consegue fazer login na plataforma\n\nRESOLUÇÃO PASSO A PASSO:\n1. Verificar se o email está correto\n2. Tentar redefinir senha\n3. Verificar se a conta não está suspensa\n4. Limpar cookies e cache do navegador\n5. Tentar em modo incógnito\n6. Se usar Facebook/Google login, verificar essas contas\n\nFRASE PARA USAR: 'Vou te ajudar com o acesso. Primeiro, vamos verificar se os dados estão corretos e tentar algumas soluções básicas.'\n\nQUANDO TRANSFERIR: Se envolve problemas com Meta Business ou contas Facebook, transferir para João.",
+      "metadata": {
+        "category": "problemas_acesso_login",
+        "priority": "alta",
+        "specialist": "Alison_Joao",
+        "success_rate": "85%"
+      }
+    },
+    {
+      "content": "PERGUNTA: Como resolver chatbot que ficou offline?\n\nCONTEXTO: Chatbot parou de responder automaticamente\n\nRESOLUÇÃO PASSO A PASSO:\n1. Verificar status da integração do WhatsApp\n2. Revisar se há erros nos fluxos\n3. Verificar se atingiu limite de mensagens\n4. Reiniciar o chatbot nas configurações\n5. Testar com palavra-chave simples\n\nFRASE PARA USAR: 'Vou verificar o status do seu chatbot. Vamos diagnosticar se é problema de conexão ou configuração.'\n\nIMPORTANTE: Sempre testar após reativar. Chatbot offline pode significar problemas maiores na integração.",
+      "metadata": {
+        "category": "problemas_chatbot_automacao",
+        "priority": "alta",
+        "specialist": "Alison",
+        "success_rate": "92%"
+      }
+    },
+    {
+      "content": "PERGUNTA: Como resolver problemas de formatação de texto?\n\nCONTEXTO: Mensagens aparecem com formatação estranha ou caracteres especiais\n\nRESOLUÇÃO PASSO A PASSO:\n1. Verificar codificação UTF-8 nas configurações\n2. Revisar templates de mensagens\n3. Testar com texto simples sem formatação\n4. Verificar se há caracteres especiais problemáticos\n5. Limpar cache de templates\n\nFRASE PARA USAR: 'Vou te ajudar com a formatação das mensagens. Vamos verificar as configurações de texto e templates.'\n\nDICA: Evitar emojis complexos e caracteres especiais em templates críticos.",
+      "metadata": {
+        "category": "problemas_funcionamento_sistema",
+        "priority": "baixa",
+        "specialist": "Alison",
+        "success_rate": "95%"
+      }
+    },
+    {
+      "content": "PERGUNTA: Como resolver problemas de conectividade com rede internacional?\n\nCONTEXTO: Sistema apresenta lentidão ou falhas de conexão\n\nRESOLUÇÃO PASSO A PASSO:\n1. Testar conexão alternativa: app-relay.talqui.chat\n2. Verificar se não é problema de firewall local\n3. Testar em rede diferente (4G/WiFi)\n4. Verificar status dos servidores Talqui\n5. Orientar sobre CDN/Cloudflare se necessário\n\nFRASE PARA USAR: 'Vou te ajudar com esse problema de conectividade. Vamos testar uma conexão alternativa primeiro.'\n\nESPECIALISTA JOÃO: Problemas de rede complexos sempre transferir para João com contexto detalhado.",
+      "metadata": {
+        "category": "problemas_funcionamento_sistema",
+        "priority": "media",
+        "specialist": "Joao",
+        "success_rate": "80%"
+      }
+    },
+    {
+      "content": "PERGUNTA: Como configurar conta do Facebook para acesso?\n\nCONTEXTO: Cliente precisa configurar ou reconectar conta Facebook/Meta Business\n\nRESOLUÇÃO PASSO A PASSO:\n1. Verificar se tem acesso ao Meta Business Manager\n2. Confirmar permissões de administrador\n3. Reconectar conta nas configurações\n4. Verificar se não há restrições na conta Facebook\n5. Testar conexão após configuração\n\nFRASE PARA USAR: 'Vou te orientar sobre a configuração do Facebook. É importante ter as permissões corretas no Meta Business.'\n\nATENÇÃO: Problemas com Meta Business são complexos - se não resolver rapidamente, transferir para João.",
+      "metadata": {
+        "category": "problemas_acesso_login",
+        "priority": "alta",
+        "specialist": "Joao",
+        "success_rate": "85%"
+      }
+    },
+    {
+      "content": "PERGUNTA: Como resolver problemas de entrega de mensagens?\n\nCONTEXTO: Mensagens não estão chegando aos destinatários\n\nRESOLUÇÃO PASSO A PASSO:\n1. Verificar status da conexão WhatsApp Business\n2. Confirmar se números estão corretos\n3. Verificar se não atingiu limite de mensagens\n4. Testar com número conhecido\n5. Revisar configurações de webhook\n\nFRASE PARA USAR: 'Vou investigar porque as mensagens não estão sendo entregues. Vamos verificar a conexão e configurações.'\n\nIMPORTANTE: Problemas de entrega podem indicar suspensão da conta WhatsApp - escalar rapidamente se suspeitar.",
+      "metadata": {
+        "category": "problemas_mensagens_whatsapp",
+        "priority": "alta",
+        "specialist": "Alison",
+        "success_rate": "88%"
+      }
+    },
+    {
+      "content": "PERGUNTA: Como otimizar fluxos de atendimento automático?\n\nCONTEXTO: Cliente quer melhorar performance do chatbot\n\nRESOLUÇÃO PASSO A PASSO:\n1. Analisar fluxos existentes\n2. Identificar pontos de abandono\n3. Simplificar opções do menu\n4. Testar palavras-chave mais comuns\n5. Configurar fallback para atendimento humano\n\nFRASE PARA USAR: 'Vamos analisar seus fluxos atuais e identificar oportunidades de melhoria. O objetivo é tornar o atendimento mais eficiente.'\n\nDICA: Fluxos complexos devem ter máximo 3-4 níveis. Sempre oferecer opção 'falar com humano'.",
+      "metadata": {
+        "category": "problemas_chatbot_automacao",
+        "priority": "media",
+        "specialist": "Alison",
+        "success_rate": "90%"
+      }
+    },
+    {
+      "content": "PERGUNTA: Como verificar funcionamento da localização?\n\nCONTEXTO: Recursos de localização não estão funcionando corretamente\n\nRESOLUÇÃO PASSO A PASSO:\n1. Verificar permissões de localização no dispositivo\n2. Testar envio de localização manualmente\n3. Verificar se API de mapas está configurada\n4. Testar em dispositivos diferentes\n5. Revisar configurações de privacidade\n\nFRASE PARA USAR: 'Vou te ajudar a verificar as configurações de localização. Vamos testar passo a passo.'\n\nOBSERVAÇÃO: Recursos de localização dependem de APIs externas - pode haver instabilidades.",
+      "metadata": {
+        "category": "problemas_funcionamento_sistema",
+        "priority": "baixa",
+        "specialist": "Alison",
+        "success_rate": "85%"
+      }
+    },
+    {
+      "content": "PERGUNTA: Como resolver problemas de configuração visual/interface?\n\nCONTEXTO: Cliente quer personalizar aparência da plataforma\n\nRESOLUÇÃO PASSO A PASSO:\n1. Acessar Configurações > Interface\n2. Escolher tema ou cores desejadas\n3. Fazer alterações graduais\n4. Visualizar preview antes de salvar\n5. Testar em diferentes dispositivos\n\nFRASE PARA USAR: 'Vou te orientar sobre as opções de personalização visual. Podemos ajustar conforme sua marca.'\n\nLEMBRAR: Mudanças visuais não afetam funcionalidades, mas sempre fazer backup das configurações atuais.",
+      "metadata": {
+        "category": "problemas_configuracao",
+        "priority": "baixa",
+        "specialist": "Alison",
+        "success_rate": "98%"
+      }
+    },
+    {
+      "content": "PERGUNTA: Como configurar promessa de pagamento via chat?\n\nCONTEXTO: Cliente quer automatizar cobranças e negociação de pagamentos\n\nRESOLUÇÃO PASSO A PASSO:\n1. Acessar módulo Financeiro\n2. Configurar templates de cobrança\n3. Definir regras de vencimento\n4. Testar fluxo de negociação\n5. Configurar confirmação automática\n\nFRASE PARA USAR: 'Vou te ajudar a configurar o sistema de promessa de pagamento. É uma funcionalidade muito útil para gestão financeira.'\n\nIMPORTANTE: Sempre validar informações financeiras antes de ativar automações.",
+      "metadata": {
+        "category": "problemas_configuracao",
+        "priority": "alta",
+        "specialist": "Alison",
+        "success_rate": "90%"
+      }
+    },
+    {
+      "content": "FLUXO DE DIAGNÓSTICO GERAL:\n\n1. ESCUTAR o problema completamente\n2. PERGUNTAR detalhes específicos:\n   - Quando começou?\n   - Afeta todos os usuários?\n   - Houve mudanças recentes?\n3. APLICAR solução básica primeiro\n4. TESTAR junto com o cliente\n5. Se não resolver: DOCUMENTAR tentativas e TRANSFERIR\n\nFRASES DE TRANSIÇÃO:\n'Deixe-me verificar isso para você...'\n'Vou te passar para nosso especialista técnico que tem mais experiência com esse tipo de caso.'\n'Já documentei tudo que tentamos, o especialista terá todo o contexto.'\n\nREGRA DE OURO: Máximo 10 minutos tentando resolver. Se não conseguir, transferir com contexto completo.",
+      "metadata": {
+        "category": "protocolo_geral",
+        "priority": "alta",
+        "specialist": "Isabella_Training",
+        "success_rate": "N/A"
+      }
+    },
+    {
+      "content": "QUANDO TRANSFERIR PARA CADA ESPECIALISTA:\n\nALISON (Especialista Técnico Principal):\n- Problemas de integração WhatsApp\n- Configurações avançadas\n- Problemas de mensagens/entrega\n- Chatbot e automação\n- Formatação e sistema\n\nJOÃO (Especialista em Acesso/Rede):\n- Problemas de conectividade\n- Meta Business/Facebook\n- Questões de rede internacional\n- Problemas complexos de login\n\nFRASE PADRÃO PARA TRANSFERÊNCIA:\n'Vou te conectar com [NOME], nosso especialista em [ÁREA]. Ele tem toda a expertise necessária para resolver essa questão. Já passei todo o contexto da nossa conversa para ele.'\n\nNUNCA dizer: 'não sei' ou 'não consigo ajudar'. SEMPRE: 'vou conectar você com quem pode resolver melhor'.",
+      "metadata": {
+        "category": "protocolo_transferencia",
+        "priority": "alta",
+        "specialist": "Isabella_Training",
+        "success_rate": "N/A"
+      }
+    }
+  ],
+  "training_metrics": {
+    "total_chunks": 15,
+    "avg_chars_per_chunk": 890,
+    "total_characters": 13350,
+    "estimated_tokens": 2000,
+    "coverage_areas": [
+      "problemas_de_integracao",
+      "problemas_mensagens_whatsapp", 
+      "problemas_configuracao",
+      "problemas_acesso_login",
+      "problemas_chatbot_automacao",
+      "problemas_funcionamento_sistema",
+      "protocolos_gerais"
+    ],
+    "success_rates": {
+      "alison_resolutions": "90-98%",
+      "joao_resolutions": "80-85%",
+      "target_isabella": "70-80%"
+    }
+  }
+}

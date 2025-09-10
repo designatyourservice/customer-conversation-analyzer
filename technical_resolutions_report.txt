@@ -1,0 +1,89 @@
+Extraindo amostra de mensagens...
+
+====================================================================================================
+AMOSTRA DE MENSAGENS DE RESOLUÇÃO TÉCNICA
+====================================================================================================
+
+======================================================================
+SUBCATEGORIA: OUTROS
+======================================================================
+
+   EXEMPLO 1
+   Agente: Alison
+   Sessão ID: 0532d38c-a8be-403e-8...
+
+   📤 RESOLUÇÃO DO AGENTE:
+      1. *Alison*:
+Oi, boa tarde, Cieme! Tudo bem?
+      2. *Alison*:
+Passando aqui para saber se está tudo certo com a plataforma ou se aquele probleminha com as mensagens voltou ...
+      3. Até o momento tudo normal
+
+
+   EXEMPLO 2
+   Agente: Alison
+   Sessão ID: 0f726f91-ef9a-4db0-a...
+
+   📤 RESOLUÇÃO DO AGENTE:
+      1. *Alison*:
+Olá, teste Talqui.
+      2. 👩🏽‍💻  Selecione uma das opções ou *digite o que precisa diretamente* _(ex. pix para pagar)_
+
+1 - 🚀 Contratação
+2 - 🛠 Sup...
+      3. 👩🏽‍💻 Boa tarde Talqui, eu sou a assistente virtual da *Chip7 internet*! 
+
+Como posso te ajudar?
+
+
+======================================================================
+SUBCATEGORIA: PROBLEMAS COM CHATBOT/AUTOMAÇÃO
+======================================================================
+
+   EXEMPLO 1
+   Agente: Alison
+   Sessão ID: 35de4cd9-2d84-4cb4-8...
+
+   📤 RESOLUÇÃO DO AGENTE:
+      1. Quero falar com Alison
+      2. Olá Diego! Espero que esteja tudo bem com você. Posso saber o motivo do seu contato para que eu possa direcionar correta...
+      3. Problemas, Chatbot ficando offline a noite e pela manhã.
+
+
+   EXEMPLO 2
+   Agente: Alison
+   Sessão ID: 4f224348-1c9e-4477-9...
+
+   📤 RESOLUÇÃO DO AGENTE:
+      1. Olá, bom dia Renan! Tudo bem?
+      2. Olá, bom dia Renan! Tudo bem?
+      3. *Alison*:
+Recebi sua mensagem e entendo perfeitamente a sua preocupação em avançar nos fluxos de venda e assistência par...
+
+
+======================================================================
+SUBCATEGORIA: PROBLEMAS DE ACESSO/LOGIN
+======================================================================
+
+   EXEMPLO 1
+   Agente: João
+   Sessão ID: 17eb763f-8e1b-4d56-a...
+
+   📤 RESOLUÇÃO DO AGENTE:
+      1. Opa Nadyla, João aqui
+      2. *João Miranda*:
+Podemos dar continuidade a criação da conta do Facebook de vocês?
+      3. *João Miranda*:
+Deixe me ver aqui
+
+
+   EXEMPLO 2
+   Agente: Alison
+   Sessão ID: 353dd875-5846-4338-a...
+
+   📤 RESOLUÇÃO DO AGENTE:
+      1. Oi! Tudo bem? Que ótimo que você quer usar o nosso sistema! Posso transferir você para o nosso gerente, que poderá te aj...
+      2. Aguarde um momento, já vamos te transferir ao atendimento avançado.
+      3. *Alison*:
+Olá, boa tarde! Tudo bem?
+

@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# CSV data files (keeping only essential ones)
+talqui-messages.csv
+talqui-operator.csv
+talqui-sessions-plugin.csv
+*.csv
+!requirements.txt
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Process IDs
+*.pid
+
+# Flask instance folder
+instance/
+
+# Backup files
+backup_*
+checkpoint_*
+milestone_*
+FINAL_*
+
+# Cache
+.cache/
+*.cache
+
+# Node modules (if any)
+node_modules/
+
+# Static analysis
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/

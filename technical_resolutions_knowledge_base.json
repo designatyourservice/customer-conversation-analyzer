@@ -1,0 +1,277 @@
+{
+  "generated_at": "2025-09-06T13:45:52.692514",
+  "agents": [
+    "Alison",
+    "João"
+  ],
+  "subcategories": {
+    "outros": {
+      "total_sessions": 20,
+      "agents_distribution": {
+        "Alison": 17,
+        "João": 3
+      },
+      "common_problems": {},
+      "resolution_patterns": {},
+      "sample_resolutions": [
+        {
+          "session_id": "0532d38c-a8be-403e-8150-30cf26b1d673",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "acompanhamento de problema técnico resolvido",
+          "confidence": 0.9
+        },
+        {
+          "session_id": "0f726f91-ef9a-4db0-a650-ed05781b7d9c",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "início de atendimento técnico",
+          "confidence": 0.85
+        },
+        {
+          "session_id": "0f7588da-a971-4eb3-b9fb-81a56846e948",
+          "agent": "João",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "problema de conectividade/rede",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "problemas com chatbot/automação": {
+      "total_sessions": 4,
+      "agents_distribution": {
+        "Alison": 4
+      },
+      "common_problems": {},
+      "resolution_patterns": {},
+      "sample_resolutions": [
+        {
+          "session_id": "35de4cd9-2d84-4cb4-8987-0ae7d6ebf28f",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "problemas de conectividade/offline do chatbot",
+          "confidence": 0.98
+        },
+        {
+          "session_id": "4f224348-1c9e-4477-982a-a136314278d9",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "Otimização de fluxo de atendimento e chatbot",
+          "confidence": 0.85
+        },
+        {
+          "session_id": "84e02910-093d-40db-b880-7a3b0422a263",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "problemas técnicos com chatbot",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "problemas de acesso/login": {
+      "total_sessions": 13,
+      "agents_distribution": {
+        "João": 2,
+        "Alison": 11
+      },
+      "common_problems": {},
+      "resolution_patterns": {},
+      "sample_resolutions": [
+        {
+          "session_id": "17eb763f-8e1b-4d56-a5a8-e2220286d299",
+          "agent": "João",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "configuração de conta/conta do Facebook",
+          "confidence": 0.95
+        },
+        {
+          "session_id": "353dd875-5846-4338-af58-598b2ce2a234",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "problema de acesso ao sistema após configuração",
+          "confidence": 0.85
+        },
+        {
+          "session_id": "36b7960b-9241-41a4-9fb6-27bb4ce23e31",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "acesso à plataforma Meta Business para migração",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "problemas de configuração": {
+      "total_sessions": 26,
+      "agents_distribution": {
+        "Alison": 26
+      },
+      "common_problems": {},
+      "resolution_patterns": {},
+      "sample_resolutions": [
+        {
+          "session_id": "061aa002-3e8c-4428-96aa-b1c1008816fb",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "alteração de configuração visual/interface",
+          "confidence": 0.98
+        },
+        {
+          "session_id": "06e68116-f8c8-466a-aa81-b555774ae582",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "configuração de sistema/promessa de pagamento via chat",
+          "confidence": 0.9
+        },
+        {
+          "session_id": "13f6742f-7b53-4164-b635-d6f52eb07a6e",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "configuração de tempo de inatividade da sessão",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "problemas de funcionamento/sistema": {
+      "total_sessions": 20,
+      "agents_distribution": {
+        "Alison": 19,
+        "João": 1
+      },
+      "common_problems": {},
+      "resolution_patterns": {},
+      "sample_resolutions": [
+        {
+          "session_id": "02f8f915-3bb7-4e30-b557-6afcf4ed1983",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "problema de formatação de texto no sistema",
+          "confidence": 0.95
+        },
+        {
+          "session_id": "04eb8519-cc9d-4157-bcc7-130669da793c",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "verificação de funcionamento da localização",
+          "confidence": 0.85
+        },
+        {
+          "session_id": "0dd744f8-334f-489b-a045-5053dbfcdadb",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "problema de funcionamento do chatbot/robô",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "problemas de integração": {
+      "total_sessions": 32,
+      "agents_distribution": {
+        "Alison": 32
+      },
+      "common_problems": {},
+      "resolution_patterns": {},
+      "sample_resolutions": [
+        {
+          "session_id": "058e756e-2c40-4f6b-a2c2-06d8979a5860",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "reconexão de QR Code e mensagens fantasma",
+          "confidence": 0.9
+        },
+        {
+          "session_id": "0ffba4a9-9be4-4c94-ac8c-0c16082a8db0",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "problemas com módulo/conexão do WhatsApp",
+          "confidence": 0.98
+        },
+        {
+          "session_id": "1f486af8-550e-4faf-b78f-bf073206c05c",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "problema de conexão/reconexão do WhatsApp Business",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "problemas de mensagens/whatsapp": {
+      "total_sessions": 19,
+      "agents_distribution": {
+        "Alison": 18,
+        "João": 1
+      },
+      "common_problems": {},
+      "resolution_patterns": {},
+      "sample_resolutions": [
+        {
+          "session_id": "05f893a9-3760-493c-9fdb-b30b802d66af",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "problema técnico com mensagens de localização e imagem no WhatsApp",
+          "confidence": 0.98
+        },
+        {
+          "session_id": "0d05b067-d68b-4834-b883-9b972846f9ce",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "problemas de entrega e duplicação de mensagens no WhatsApp",
+          "confidence": 0.98
+        },
+        {
+          "session_id": "1165b706-198c-45c7-94fb-8cfb219cfb35",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "problema de configuração no sistema de disparo de faturas",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "suporte técnico diverso": {
+      "total_sessions": 2,
+      "agents_distribution": {
+        "Alison": 2
+      },
+      "common_problems": {},
+      "resolution_patterns": {},
+      "sample_resolutions": [
+        {
+          "session_id": "a0952d67-9bcf-43f9-960c-926d9cb94f96",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "orientação sobre funcionalidade técnica específica",
+          "confidence": 0.9
+        },
+        {
+          "session_id": "cf6bffb7-c85b-4750-b2d7-45a3f9bc4007",
+          "agent": "Alison",
+          "problem_context": [],
+          "resolution_messages": [],
+          "summary": "problema técnico na emissão de faturas",
+          "confidence": 0.95
+        }
+      ]
+    }
+  }
+}

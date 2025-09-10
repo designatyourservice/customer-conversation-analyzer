@@ -1,0 +1,251 @@
+ISABELLA - BASE DE CONHECIMENTO TÉCNICA
+Baseada na expertise dos especialistas Alison e João
+
+=== PROBLEMAS DE INTEGRAÇÃO ===
+
+PERGUNTA: Como resolver problemas de conexão do WhatsApp Business?
+CONTEXTO: Cliente relatando que o WhatsApp Business não conecta na plataforma
+RESOLUÇÃO:
+1. Verificar se o WhatsApp Business está atualizado
+2. Limpar cache do navegador
+3. Tentar reconectar usando o QR Code
+4. Se persistir, verificar configurações de firewall
+5. Em último caso, reiniciar a integração completamente
+FRASE: "Vou te ajudar a reconectar o WhatsApp Business. Primeiro, vamos verificar se está tudo atualizado e tentar gerar um novo QR Code."
+TRANSFERIR: Se após 3 tentativas o problema persistir, transferir para Alison com contexto completo.
+
+PERGUNTA: O que fazer quando o QR Code não conecta?
+CONTEXTO: QR Code não estabelece conexão com WhatsApp Business
+RESOLUÇÃO:
+1. Fechar completamente o WhatsApp Business no celular
+2. Reabrir o aplicativo
+3. Gerar novo QR Code na plataforma
+4. Escanear imediatamente (código expira em 2 minutos)
+5. Verificar se aparece "Conectado" na plataforma
+FRASE: "Vamos gerar um novo QR Code. É importante escanear rapidamente pois ele expira em 2 minutos."
+CUIDADO: Nunca ter múltiplas sessões WhatsApp conectadas simultaneamente.
+
+PERGUNTA: Como reconectar o WhatsApp na plataforma?
+CONTEXTO: WhatsApp desconectou e precisa ser reconectado
+RESOLUÇÃO:
+1. Ir em Configurações > Integrações > WhatsApp
+2. Clicar em "Desconectar" se ainda aparecer conectado
+3. Aguardar 30 segundos
+4. Clicar em "Conectar novamente"
+5. Seguir processo do QR Code
+6. Testar enviando uma mensagem
+FRASE: "Vou te orientar a reconectar o WhatsApp. Primeiro precisamos desconectar completamente e depois fazer nova conexão."
+IMPORTANTE: Processo pode levar até 5 minutos para sincronizar completamente.
+
+=== PROBLEMAS DE MENSAGENS/WHATSAPP ===
+
+PERGUNTA: O que fazer quando mensagens duplicam no WhatsApp?
+CONTEXTO: Cliente reclamando de mensagens duplicadas sendo enviadas
+RESOLUÇÃO:
+1. Verificar se há múltiplas instâncias do WhatsApp conectadas
+2. Revisar configurações de disparo automático
+3. Verificar se o webhook está configurado corretamente
+4. Limpar fila de mensagens pendentes
+5. Testar com uma mensagem única
+FRASE: "Entendo a preocupação com as mensagens duplicadas. Vamos verificar as configurações de envio e limpar qualquer fila pendente."
+CUIDADOS: Nunca deletar mensagens sem confirmar com o cliente. Sempre fazer backup antes de alterações.
+
+PERGUNTA: Como resolver problemas de entrega de mensagens?
+CONTEXTO: Mensagens não estão chegando aos destinatários
+RESOLUÇÃO:
+1. Verificar status da conexão WhatsApp Business
+2. Confirmar se números estão corretos
+3. Verificar se não atingiu limite de mensagens
+4. Testar com número conhecido
+5. Revisar configurações de webhook
+FRASE: "Vou investigar porque as mensagens não estão sendo entregues. Vamos verificar a conexão e configurações."
+IMPORTANTE: Problemas de entrega podem indicar suspensão da conta WhatsApp - escalar rapidamente se suspeitar.
+
+PERGUNTA: Como resolver problemas com imagens no WhatsApp?
+CONTEXTO: Imagens não são enviadas ou recebidas corretamente
+RESOLUÇÃO:
+1. Verificar tamanho da imagem (máximo 16MB)
+2. Confirmar formato suportado (JPG, PNG, GIF)
+3. Testar com imagem menor
+4. Verificar conexão de internet
+5. Limpar cache de mídia
+FRASE: "Vou te ajudar com o problema das imagens. Vamos verificar se estão no formato e tamanho corretos."
+DICA: Comprimir imagens grandes antes de enviar para evitar falhas.
+
+=== PROBLEMAS DE CONFIGURAÇÃO ===
+
+PERGUNTA: Como configurar tempo de inatividade da sessão?
+CONTEXTO: Cliente quer ajustar quando a conversa expira automaticamente
+RESOLUÇÃO:
+1. Acessar Configurações > Sessões
+2. Localizar "Tempo de Inatividade"
+3. Definir tempo desejado (recomendado: 30-60 minutos)
+4. Salvar configurações
+5. Testar com uma conversa real
+FRASE: "Vou te orientar sobre como configurar o tempo de inatividade. É uma configuração importante para otimizar o atendimento."
+DICA: Tempos muito curtos (< 15min) podem prejudicar a experiência do cliente.
+
+PERGUNTA: Como resolver problemas de configuração visual/interface?
+CONTEXTO: Cliente quer personalizar aparência da plataforma
+RESOLUÇÃO:
+1. Acessar Configurações > Interface
+2. Escolher tema ou cores desejadas
+3. Fazer alterações graduais
+4. Visualizar preview antes de salvar
+5. Testar em diferentes dispositivos
+FRASE: "Vou te orientar sobre as opções de personalização visual. Podemos ajustar conforme sua marca."
+LEMBRAR: Mudanças visuais não afetam funcionalidades, mas sempre fazer backup das configurações atuais.
+
+PERGUNTA: Como configurar promessa de pagamento via chat?
+CONTEXTO: Cliente quer automatizar cobranças e negociação de pagamentos
+RESOLUÇÃO:
+1. Acessar módulo Financeiro
+2. Configurar templates de cobrança
+3. Definir regras de vencimento
+4. Testar fluxo de negociação
+5. Configurar confirmação automática
+FRASE: "Vou te ajudar a configurar o sistema de promessa de pagamento. É uma funcionalidade muito útil para gestão financeira."
+IMPORTANTE: Sempre validar informações financeiras antes de ativar automações.
+
+=== PROBLEMAS DE ACESSO/LOGIN ===
+
+PERGUNTA: Como resolver problemas de acesso ao sistema?
+CONTEXTO: Cliente não consegue fazer login na plataforma
+RESOLUÇÃO:
+1. Verificar se o email está correto
+2. Tentar redefinir senha
+3. Verificar se a conta não está suspensa
+4. Limpar cookies e cache do navegador
+5. Tentar em modo incógnito
+6. Se usar Facebook/Google login, verificar essas contas
+FRASE: "Vou te ajudar com o acesso. Primeiro, vamos verificar se os dados estão corretos e tentar algumas soluções básicas."
+TRANSFERIR: Se envolve problemas com Meta Business ou contas Facebook, transferir para João.
+
+PERGUNTA: Como configurar conta do Facebook para acesso?
+CONTEXTO: Cliente precisa configurar ou reconectar conta Facebook/Meta Business
+RESOLUÇÃO:
+1. Verificar se tem acesso ao Meta Business Manager
+2. Confirmar permissões de administrador
+3. Reconectar conta nas configurações
+4. Verificar se não há restrições na conta Facebook
+5. Testar conexão após configuração
+FRASE: "Vou te orientar sobre a configuração do Facebook. É importante ter as permissões corretas no Meta Business."
+ATENÇÃO: Problemas com Meta Business são complexos - se não resolver rapidamente, transferir para João.
+
+=== PROBLEMAS COM CHATBOT/AUTOMAÇÃO ===
+
+PERGUNTA: Como resolver chatbot que ficou offline?
+CONTEXTO: Chatbot parou de responder automaticamente
+RESOLUÇÃO:
+1. Verificar status da integração do WhatsApp
+2. Revisar se há erros nos fluxos
+3. Verificar se atingiu limite de mensagens
+4. Reiniciar o chatbot nas configurações
+5. Testar com palavra-chave simples
+FRASE: "Vou verificar o status do seu chatbot. Vamos diagnosticar se é problema de conexão ou configuração."
+IMPORTANTE: Sempre testar após reativar. Chatbot offline pode significar problemas maiores na integração.
+
+PERGUNTA: Como otimizar fluxos de atendimento automático?
+CONTEXTO: Cliente quer melhorar performance do chatbot
+RESOLUÇÃO:
+1. Analisar fluxos existentes
+2. Identificar pontos de abandono
+3. Simplificar opções do menu
+4. Testar palavras-chave mais comuns
+5. Configurar fallback para atendimento humano
+FRASE: "Vamos analisar seus fluxos atuais e identificar oportunidades de melhoria. O objetivo é tornar o atendimento mais eficiente."
+DICA: Fluxos complexos devem ter máximo 3-4 níveis. Sempre oferecer opção "falar com humano".
+
+=== PROBLEMAS DE FUNCIONAMENTO/SISTEMA ===
+
+PERGUNTA: Como resolver problemas de formatação de texto?
+CONTEXTO: Mensagens aparecem com formatação estranha ou caracteres especiais
+RESOLUÇÃO:
+1. Verificar codificação UTF-8 nas configurações
+2. Revisar templates de mensagens
+3. Testar com texto simples sem formatação
+4. Verificar se há caracteres especiais problemáticos
+5. Limpar cache de templates
+FRASE: "Vou te ajudar com a formatação das mensagens. Vamos verificar as configurações de texto e templates."
+DICA: Evitar emojis complexos e caracteres especiais em templates críticos.
+
+PERGUNTA: Como resolver problemas de conectividade com rede internacional?
+CONTEXTO: Sistema apresenta lentidão ou falhas de conexão
+RESOLUÇÃO:
+1. Testar conexão alternativa: app-relay.talqui.chat
+2. Verificar se não é problema de firewall local
+3. Testar em rede diferente (4G/WiFi)
+4. Verificar status dos servidores Talqui
+5. Orientar sobre CDN/Cloudflare se necessário
+FRASE: "Vou te ajudar com esse problema de conectividade. Vamos testar uma conexão alternativa primeiro."
+ESPECIALISTA: Problemas de rede complexos sempre transferir para João com contexto detalhado.
+
+PERGUNTA: Como verificar funcionamento da localização?
+CONTEXTO: Recursos de localização não estão funcionando corretamente
+RESOLUÇÃO:
+1. Verificar permissões de localização no dispositivo
+2. Testar envio de localização manualmente
+3. Verificar se API de mapas está configurada
+4. Testar em dispositivos diferentes
+5. Revisar configurações de privacidade
+FRASE: "Vou te ajudar a verificar as configurações de localização. Vamos testar passo a passo."
+OBSERVAÇÃO: Recursos de localização dependem de APIs externas - pode haver instabilidades.
+
+=== PROTOCOLO GERAL ===
+
+FLUXO DE DIAGNÓSTICO (MÁXIMO 10 MINUTOS):
+1. ESCUTAR o problema completamente
+2. PERGUNTAR detalhes específicos:
+   - Quando começou?
+   - Afeta todos os usuários?
+   - Houve mudanças recentes?
+3. APLICAR solução básica primeiro
+4. TESTAR junto com o cliente
+5. Se não resolver: DOCUMENTAR tentativas e TRANSFERIR
+
+FRASES DE TRANSIÇÃO:
+- "Deixe-me verificar isso para você..."
+- "Vou te passar para nosso especialista técnico que tem mais experiência com esse tipo de caso."
+- "Já documentei tudo que tentamos, o especialista terá todo o contexto."
+
+REGRA DE OURO: Máximo 10 minutos tentando resolver. Se não conseguir, transferir com contexto completo.
+
+=== QUANDO TRANSFERIR ===
+
+ALISON (Especialista Técnico Principal - 92.6% taxa de fechamento):
+- Problemas de integração WhatsApp
+- Configurações avançadas
+- Problemas de mensagens/entrega
+- Chatbot e automação
+- Formatação e sistema
+
+JOÃO (Especialista em Acesso/Rede - 94.7% taxa de fechamento):
+- Problemas de conectividade
+- Meta Business/Facebook
+- Questões de rede internacional
+- Problemas complexos de login
+
+FRASE PADRÃO PARA TRANSFERÊNCIA:
+"Vou te conectar com [NOME], nosso especialista em [ÁREA]. Ele tem toda a expertise necessária para resolver essa questão. Já passei todo o contexto da nossa conversa para ele."
+
+NUNCA dizer: "não sei" ou "não consigo ajudar"
+SEMPRE: "vou conectar você com quem pode resolver melhor"
+
+=== PALAVRAS-CHAVE PARA IDENTIFICAÇÃO ===
+
+INTEGRAÇÃO: WhatsApp, QR Code, conectar, desconectar, sincronizar
+MENSAGENS: duplicada, não chega, entrega, envio, recebimento
+CONFIGURAÇÃO: tempo, inatividade, visual, interface, personalizar
+ACESSO: login, senha, Facebook, Meta Business, entrar
+CHATBOT: offline, automação, fluxo, bot, robô
+SISTEMA: formatação, conectividade, lento, erro, funcionamento
+
+PALAVRAS DE URGÊNCIA: não funciona, parou, offline, erro crítico, urgente
+AÇÃO: Escalar imediatamente para especialista apropriado
+
+=== MÉTRICAS ESPERADAS ===
+
+ATUAL ISABELLA: 46.7% taxa de fechamento
+META PÓS-TREINAMENTO: 70-80% taxa de fechamento
+ESPECIALISTAS BENCHMARK: Alison 92.6%, João 94.7%
+OBJETIVO: Reduzir transbordo de 53.3% para 20-30%

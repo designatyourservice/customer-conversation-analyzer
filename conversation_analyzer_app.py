@@ -15,6 +15,101 @@ app.secret_key = 'conversation_analyzer_2025'
 class ConversationAnalyzer:
     def __init__(self, db_path: str = 'talqui.db'):
         self.db_path = db_path
+        self.init_demo_db()
+    
+    def init_demo_db(self):
+        """Inicializa banco demo se não existir"""
+        import os
+        if not os.path.exists(self.db_path):
+            self.create_demo_database()
+    
+    def create_demo_database(self):
+        """Cria banco de dados demo com dados fictícios"""
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        
+        # Criar tabelas
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS session_classifications (
+                session_id TEXT PRIMARY KEY,
+                category TEXT,
+                subcategory TEXT,
+                confidence REAL,
+                has_handoff INTEGER,
+                primary_agent TEXT,
+                resolution INTEGER,
+                template INTEGER,
+                classified_at TEXT,
+                rlhf INTEGER
+            )
+        """)
+        
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS sessions (
+                session_id TEXT PRIMARY KEY,
+                created_at TEXT,
+                status TEXT,
+                client_name TEXT,
+                client_email TEXT,
+                client_phone TEXT
+            )
+        """)
+        
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS messages (
+                id INTEGER PRIMARY KEY,
+                session_id TEXT,
+                sender TEXT,
+                content TEXT,
+                timestamp TEXT,
+                FOREIGN KEY (session_id) REFERENCES sessions (session_id)
+            )
+        """)
+        
+        # Dados demo
+        demo_data = [
+            ('sess_001', 'Suporte Técnico', 'Configuração', 0.95, 0, 'Isabella', 1, 0, '2025-01-15 10:30:00', 0),
+            ('sess_002', 'Comercial', 'Planos', 0.89, 1, 'Alison', 1, 1, '2025-01-15 11:15:00', 0),
+            ('sess_003', 'Informação', 'Geral', 0.92, 0, 'Isabella', 1, 0, '2025-01-15 12:00:00', 0),
+            ('sess_004', 'Financeiro', 'Cobrança', 0.87, 1, 'Alison', 0, 1, '2025-01-15 13:45:00', 0),
+            ('sess_005', 'Suporte Técnico', 'Bug Report', 0.94, 0, 'Isabella', 1, 0, '2025-01-15 14:30:00', 0)
+        ]
+        
+        cursor.executemany("""
+            INSERT OR REPLACE INTO session_classifications 
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, demo_data)
+        
+        # Dados de sessões demo
+        sessions_data = [
+            ('sess_001', '2025-01-15 10:25:00', 'closed', 'João Silva', 'joao@email.com', '+5511999999999'),
+            ('sess_002', '2025-01-15 11:10:00', 'closed', 'Maria Santos', 'maria@email.com', '+5511888888888'),
+            ('sess_003', '2025-01-15 11:55:00', 'closed', 'Pedro Costa', 'pedro@email.com', '+5511777777777'),
+            ('sess_004', '2025-01-15 13:40:00', 'closed', 'Ana Lima', 'ana@email.com', '+5511666666666'),
+            ('sess_005', '2025-01-15 14:25:00', 'closed', 'Carlos Souza', 'carlos@email.com', '+5511555555555')
+        ]
+        
+        cursor.executemany("""
+            INSERT OR REPLACE INTO sessions VALUES (?, ?, ?, ?, ?, ?)
+        """, sessions_data)
+        
+        # Mensagens demo
+        messages_data = [
+            (1, 'sess_001', 'client', 'Olá, estou com problemas para configurar minha conta', '2025-01-15 10:25:30'),
+            (2, 'sess_001', 'agent', 'Olá! Posso te ajudar com isso. Qual problema específico?', '2025-01-15 10:26:00'),
+            (3, 'sess_001', 'client', 'Não consigo fazer login', '2025-01-15 10:26:30'),
+            (4, 'sess_001', 'agent', 'Vou verificar sua conta. Problema resolvido!', '2025-01-15 10:30:00'),
+            (5, 'sess_002', 'client', 'Gostaria de saber sobre os planos disponíveis', '2025-01-15 11:10:30'),
+            (6, 'sess_002', 'agent', 'Temos 3 planos: Básico, Pro e Enterprise', '2025-01-15 11:11:00'),
+        ]
+        
+        cursor.executemany("""
+            INSERT OR REPLACE INTO messages VALUES (?, ?, ?, ?, ?)
+        """, messages_data)
+        
+        conn.commit()
+        conn.close()
+        print("✅ Banco de dados demo criado!")
     
     def get_filters_data(self):
         """Retorna dados para os filtros laterais"""
